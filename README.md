@@ -266,3 +266,5 @@ Tips: commit small and often; use a branch per feature (`git checkout -b feature
 ## 17. Future improvements
 
 Real payment provider (Razorpay/Stripe) · Refunds · WebSocket / GraphQL subscriptions for instant order updates · Image upload · Ratings & reviews · Order scheduling and pickup slots · Email/SMS notifications · Pagination · httpOnly-cookie auth · Rate limiting · Admin ability to create staff accounts directly.
+#   c a m p u s - e a t s  
+ 
