@@ -10,9 +10,12 @@ async function bootstrap() {
 
   // CORS: only our frontend may call the API from a browser.
   app.enableCors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000',
-    credentials: true,
-  });
+  origin: [
+    'http://localhost:3000',
+    'https://campus-eats-snowy.vercel.app',
+  ],
+  credentials: true,
+});
 
   const port = process.env.PORT || 4000;
   await app.listen(port);
